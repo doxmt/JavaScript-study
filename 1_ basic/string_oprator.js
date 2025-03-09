@@ -89,3 +89,16 @@ console.log(str6);
 
 // 부수효과
 console.log(str5);
+console.log()
+
+// 💡 다른 자료형과 더하면 문자열 반환
+let result = '안녕' + 1 + true;
+
+console.log(result);
+console.log(typeof result);
+
+result += null;
+result += undefined;
+
+console.log(result);
+console.log(typeof result);
